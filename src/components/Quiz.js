@@ -19,13 +19,9 @@ function Quiz(props) {
   }
 
   return (
-    <div className="quiz">
-      {/*<QuestionCount*/}
-      {/*  counter={props.questionId}*/}
-      {/*  total={props.questionTotal}*/}
-      {/*/>*/}
+    <div className="react-quiz__quiz">
       <Question content={props.question} />
-      <ul className="answerOptions">
+      <ul className="react-quiz__answer-options">
         {props.answerOptions.map(renderAnswerOptions)}
       </ul>
     </div>

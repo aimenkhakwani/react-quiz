@@ -1,0 +1,84 @@
+.react-quiz {
+  &__header {
+    background-color: #326273;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  &__title {
+    margin: 40px 0;
+  }
+
+  &__quiz, &__result {
+    position: relative;
+    max-width: 800px;
+    margin: 50px 25px;
+    @media (min-width: 769px) {
+      margin: 0 auto;
+    }
+  }
+
+  &__question {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 0;
+  }
+
+  &__answer-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @media (min-width: 769px) {
+      flex-direction: row;
+    }
+  }
+
+  &__answer-option {
+    background: #fff;
+    box-shadow: 3px 3px 5px 3px #d9d9d9;
+    &:hover {
+      background-color: #eefbfe;
+    }
+  }
+
+  &__radio-button,
+  &__radio-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  &__radio-button {
+    position: absolute;
+    width: auto;
+    opacity: 0;
+  }
+
+  &__radio-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 80px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  &__result {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    font-size: 18px;
+    @media (min-width: 769px) {
+      margin: 50px auto;
+    }
+  }
+}
+

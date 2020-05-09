@@ -1,6 +1,6 @@
 var quizQuestions = [
   {
-    question: "Choose an ancient culture?",
+    question: "Choose an ancient culture:",
     answers: [
       {
         type: "aztec",

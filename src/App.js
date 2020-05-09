@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import quizQuestions from './data/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   constructor(props) {
@@ -100,10 +99,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+      <div className="react-quiz">
+        <div className="react-quiz__header">
+          <h1 className="react-quiz__title">Humanities Quiz</h1>
         </div>
         {this.state.endResult ? this.renderResult() : this.renderQuiz()}
       </div>

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 function AnswerOption(props) {
   return (
-    <li className="answerOption">
+    <li className="react-quiz__answer-option">
       <input
         type="radio"
-        className="radioCustomButton"
+        className="react-quiz__radio-button"
         name="radioGroup"
         checked={props.answerType === props.answer}
         id={props.answerType}
@@ -14,7 +14,7 @@ function AnswerOption(props) {
         disabled={props.answer}
         onChange={props.onAnswerSelected}
       />
-      <label className="radioCustomLabel" htmlFor={props.answerType}>
+      <label className="react-quiz__radio-label" htmlFor={props.answerType}>
         {props.answerContent}
       </label>
     </li>
