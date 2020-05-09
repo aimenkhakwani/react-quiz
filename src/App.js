@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import quizQuestions from './data/quizQuestions';
+import quizResults from './data/quizResults';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './App.scss';
@@ -67,7 +68,27 @@ class App extends Component {
   }
 
   setResults () {
-    this.setState({ endResult: this.state.result });
+    const ans = this.state.result;
+    let res = '';
+    if (ans === 'aztec nobleman') {
+      res = quizResults[0].result;
+    }
+    if (ans === 'aztec warrior') {
+      res = quizResults[1].result;
+    }
+    if (ans === 'aztec commoner') {
+      res = quizResults[2].result;
+    }
+    if (ans === 'mesopotamian nobleman') {
+      res = quizResults[3].result;
+    }
+    if (ans === 'mesopotamian warrior') {
+      res = quizResults[4].result;
+    }
+    if (ans === 'mesopotamian commoner') {
+      res = quizResults[5].result;
+    }
+    this.setState({ endResult: res });
   }
 
   handleAnswerSelected(event) {
