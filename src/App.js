@@ -71,22 +71,46 @@ class App extends Component {
     const ans = this.state.result;
     let res = '';
     if (ans === 'aztec nobleman') {
-      res = quizResults[0].result;
+      res = [
+        quizResults[0].title,
+        quizResults[0].result,
+        quizResults[0].img
+      ];
     }
     if (ans === 'aztec warrior') {
-      res = quizResults[1].result;
+      res = [
+        quizResults[1].title,
+        quizResults[1].result,
+        quizResults[1].img
+      ];
     }
     if (ans === 'aztec commoner') {
-      res = quizResults[2].result;
+      res = [
+        quizResults[2].title,
+        quizResults[2].result,
+        quizResults[2].img
+      ];
     }
     if (ans === 'mesopotamian nobleman') {
-      res = quizResults[3].result;
+      res = [
+        quizResults[3].title,
+        quizResults[3].result,
+        quizResults[3].img
+      ];
     }
     if (ans === 'mesopotamian warrior') {
-      res = quizResults[4].result;
+      res = [
+        quizResults[4].title,
+        quizResults[4].result,
+        quizResults[4].img
+      ];
     }
     if (ans === 'mesopotamian commoner') {
-      res = quizResults[5].result;
+      res = [
+        quizResults[5].title,
+        quizResults[5].result,
+        quizResults[5].img
+      ];
     }
     this.setState({ endResult: res });
   }
@@ -114,7 +138,11 @@ class App extends Component {
 
   renderResult() {
     return (
-      <Result quizResult={this.state.endResult} />
+      <Result
+        quizTitle={this.state.endResult[0]}
+        quizResult={this.state.endResult[1]}
+        imgSrc={this.state.endResult[2]}
+      />
     );
   }
 

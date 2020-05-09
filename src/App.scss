@@ -73,12 +73,28 @@
   }
 
   &__result {
-    padding: 50px 20px;
+    padding: 30px;
     background-color: #ffffff;
     font-size: 18px;
+    line-height: 1.6;
     @media (min-width: 769px) {
       margin: 50px auto;
     }
+  }
+
+  &__result-title {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  &__result-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  &__img {
+    max-width: 350px;
   }
 }
 
