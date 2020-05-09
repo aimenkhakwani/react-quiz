@@ -122,7 +122,7 @@ class App extends Component {
     return (
       <div className="react-quiz">
         <div className="react-quiz__header">
-          <h1 className="react-quiz__title">Humanities Quiz</h1>
+          <h1 className="react-quiz__title">Humanities Quiz!!</h1>
         </div>
         {this.state.endResult ? this.renderResult() : this.renderQuiz()}
       </div>
