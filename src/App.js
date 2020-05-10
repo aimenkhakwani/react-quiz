@@ -91,21 +91,21 @@ class App extends Component {
         quizResults[2].img
       ];
     }
-    if (ans === 'mesopotamian nobleman') {
+    if (ans === 'roman nobleman') {
       res = [
         quizResults[3].title,
         quizResults[3].result,
         quizResults[3].img
       ];
     }
-    if (ans === 'mesopotamian warrior') {
+    if (ans === 'roman warrior') {
       res = [
         quizResults[4].title,
         quizResults[4].result,
         quizResults[4].img
       ];
     }
-    if (ans === 'mesopotamian commoner') {
+    if (ans === 'roman commoner') {
       res = [
         quizResults[5].title,
         quizResults[5].result,
