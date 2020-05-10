@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56f3ef8bffbc5c582667ce991fc4e3c9",
+    "revision": "a8c6bdb0ecf2afda2ee2830d8bea4652",
     "url": "/react-quiz/index.html"
   },
   {
-    "revision": "05ec8244d2c13b314afd",
-    "url": "/react-quiz/static/css/main.9a5b1bf8.chunk.css"
+    "revision": "eae46f1d0f6d2b4a21ca",
+    "url": "/react-quiz/static/css/main.f56d10a6.chunk.css"
   },
   {
     "revision": "393b6cbc5673c82431f0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-quiz/static/js/2.f3312dc8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05ec8244d2c13b314afd",
-    "url": "/react-quiz/static/js/main.3a44a57c.chunk.js"
+    "revision": "eae46f1d0f6d2b4a21ca",
+    "url": "/react-quiz/static/js/main.96f4ec43.chunk.js"
   },
   {
     "revision": "628b30ad5d2631412144",
@@ -34,5 +34,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3a3bf610d8ed0c15305f8f39bcbfd8a",
     "url": "/react-quiz/static/media/aztec-warrior.d3a3bf61.jpg"
+  },
+  {
+    "revision": "f2dc6d2708087f1550b56120b562a68f",
+    "url": "/react-quiz/static/media/roman-patricians.f2dc6d27.jpg"
+  },
+  {
+    "revision": "ec1c00705b8f097c32ca3020e2dacd6d",
+    "url": "/react-quiz/static/media/roman-plebeians.ec1c0070.jpg"
+  },
+  {
+    "revision": "63dd9b3eca7bfc9ee8d44a63e6cc3185",
+    "url": "/react-quiz/static/media/roman-soldiers.63dd9b3e.jpg"
   }
 ]);

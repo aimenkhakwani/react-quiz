@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/react-quiz/static/css/main.9a5b1bf8.chunk.css",
-    "main.js": "/react-quiz/static/js/main.3a44a57c.chunk.js",
-    "main.js.map": "/react-quiz/static/js/main.3a44a57c.chunk.js.map",
+    "main.css": "/react-quiz/static/css/main.f56d10a6.chunk.css",
+    "main.js": "/react-quiz/static/js/main.96f4ec43.chunk.js",
+    "main.js.map": "/react-quiz/static/js/main.96f4ec43.chunk.js.map",
     "runtime-main.js": "/react-quiz/static/js/runtime-main.62206730.js",
     "runtime-main.js.map": "/react-quiz/static/js/runtime-main.62206730.js.map",
     "static/js/2.f3312dc8.chunk.js": "/react-quiz/static/js/2.f3312dc8.chunk.js",
     "static/js/2.f3312dc8.chunk.js.map": "/react-quiz/static/js/2.f3312dc8.chunk.js.map",
     "index.html": "/react-quiz/index.html",
-    "precache-manifest.a9e44255c8d7156524e9ea45bd1d1256.js": "/react-quiz/precache-manifest.a9e44255c8d7156524e9ea45bd1d1256.js",
+    "precache-manifest.6336a3fdc51253de1f98fc7c13467be6.js": "/react-quiz/precache-manifest.6336a3fdc51253de1f98fc7c13467be6.js",
     "service-worker.js": "/react-quiz/service-worker.js",
-    "static/css/main.9a5b1bf8.chunk.css.map": "/react-quiz/static/css/main.9a5b1bf8.chunk.css.map",
+    "static/css/main.f56d10a6.chunk.css.map": "/react-quiz/static/css/main.f56d10a6.chunk.css.map",
     "static/js/2.f3312dc8.chunk.js.LICENSE.txt": "/react-quiz/static/js/2.f3312dc8.chunk.js.LICENSE.txt",
     "static/media/aztec-commoner.jpg": "/react-quiz/static/media/aztec-commoner.8fe064ce.jpg",
     "static/media/aztec-nobles.jpg": "/react-quiz/static/media/aztec-nobles.2fca00ee.jpg",
-    "static/media/aztec-warrior.jpg": "/react-quiz/static/media/aztec-warrior.d3a3bf61.jpg"
+    "static/media/aztec-warrior.jpg": "/react-quiz/static/media/aztec-warrior.d3a3bf61.jpg",
+    "static/media/roman-patricians.jpg": "/react-quiz/static/media/roman-patricians.f2dc6d27.jpg",
+    "static/media/roman-plebeians.jpg": "/react-quiz/static/media/roman-plebeians.ec1c0070.jpg",
+    "static/media/roman-soldiers.jpg": "/react-quiz/static/media/roman-soldiers.63dd9b3e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62206730.js",
     "static/js/2.f3312dc8.chunk.js",
-    "static/css/main.9a5b1bf8.chunk.css",
-    "static/js/main.3a44a57c.chunk.js"
+    "static/css/main.f56d10a6.chunk.css",
+    "static/js/main.96f4ec43.chunk.js"
   ]
 }
